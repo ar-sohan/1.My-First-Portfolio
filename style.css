@@ -10,20 +10,102 @@
 /*---------------
      the header 
 -------------------*/
-
+.header{
+    background-color: #FFF8F3;
+    margin: 0px;
+    background-image: url("images/developer.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
 /*---------------
      the navbar 
 -------------------*/
 .nav{
     display: flex;
+    padding: 20px 100px;
     justify-content: space-between;
     align-items: center;
 }
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.n-special{
+    color: #FD6E0A;
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+.nav-options a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: rgb(44, 141, 108);
+}
 
 /*---------------
-     the header 
+     the intro section 
 -------------------*/
+.intro-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 30px 0px 80px;
+    background-image: url("images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
 /*---------------
-     the header 
+     the intro 
 -------------------*/
-
+.intro{
+    height: 100vh;
+    padding: 10px 40px;
+}
+.intro-sub-heading{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.intro-heading{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    padding: 0px;
+}
+.intro-description{
+    color:#757575;
+    font-size: 18px;
+    line-height: 30px; 
+}
+.btn-group-1{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.btn-download{
+    padding: 15px;
+}
+.btn-contact{
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.picture{
+    position: absolute;
+    right: 7%;
+    bottom: -33%;
+}
